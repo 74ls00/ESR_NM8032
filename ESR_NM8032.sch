@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
@@ -27523,8 +27523,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="DA3" library="national-semiconductor" deviceset="LM391" device="N" technology="5"/>
 <part name="DD1" library="40xx" deviceset="4049" device="D"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="330"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="M0805" value="20k"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="220n"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="0207/10" value="20k"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="050-025X075" value="220n"/>
 <part name="LED1" library="led" deviceset="LED" device="SML0603"/>
 <part name="LED2" library="led" deviceset="LED" device="SML0603"/>
 <part name="LED3" library="led" deviceset="LED" device="SML0603"/>
@@ -27553,7 +27553,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="220n"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R1206W" value="5k6"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="3C6" library="rc-elektronik" deviceset="C-EU" device="025-024X044" value="100n"/>
+<part name="3C6" library="rc-elektronik" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="DA4" library="mc34063" deviceset="MC34063" device="AD"/>
 <part name="3R5" library="rcl" deviceset="R-EU_" device="0204/7" value="220"/>
 <part name="3R6" library="rcl" deviceset="R-EU_" device="0204/7" value="0.5-1"/>
@@ -27562,7 +27562,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="3R8" library="rcl" deviceset="R-EU_" device="M0805" value="2k2"/>
 <part name="3L2" library="rcl" deviceset="L-US" device="0207/10" value="100uh"/>
 <part name="3VD2" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="SS12"/>
-<part name="3C7" library="rcl" deviceset="C-EU" device="025-025X050" value="1n"/>
+<part name="3C7" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
@@ -27570,7 +27570,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="3C8" library="HWProgUSB" deviceset="RCL_CPOL-EU" device="E3.5-8" value="470µ / 10V"/>
 <part name="3C9" library="HWProgUSB" deviceset="RCL_CPOL-EU" device="E3.5-8" value="100µ 16V"/>
-<part name="3C10" library="rcl" deviceset="C-EU" device="025-025X050" value="100n"/>
+<part name="3C10" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10m"/>
@@ -27591,7 +27591,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="3L1" library="rcl" deviceset="L-US" device="0207/10" value="100uh"/>
-<part name="C9" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="470x6v3"/>
+<part name="C9" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="470x6v3"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="330n"/>
 <part name="3L3" library="rcl" deviceset="L-US" device="0207/10" value="100uh"/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
