@@ -27626,6 +27626,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="C18" library="HWProgUSB" deviceset="RCL_CPOL-EU" device="E2-5" value="100µ 16V"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="v-reg" deviceset="LD117A?*" device="S" technology="12TR"/>
+<part name="C19" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="470x6v3"/>
 </parts>
 <sheets>
 <sheet>
@@ -27852,6 +27853,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <instance part="C18" gate="G$1" x="147.32" y="38.1"/>
 <instance part="GND11" gate="1" x="147.32" y="27.94"/>
 <instance part="IC1" gate="G$1" x="134.62" y="63.5"/>
+<instance part="C19" gate="G$1" x="71.12" y="93.98"/>
 </instances>
 <busses>
 </busses>
