@@ -27930,9 +27930,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="180"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="M1206" value="0.5-1"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="0207/15" value="9k1"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="9k1"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="2k4"/>
-<part name="L2" library="rcl" deviceset="L-US" device="0207/10" value="100uh"/>
+<part name="L2" library="rcl" deviceset="L-US" device="0204/7" value="100uh"/>
 <part name="3VD2" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="SS12"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -27964,7 +27964,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="L1" library="rcl" deviceset="L-US" device="0207/10" value="100uh"/>
 <part name="C9" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="470x6v3"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="330n"/>
-<part name="L3" library="rcl" deviceset="L-US" device="0207/10" value="100uh"/>
+<part name="L3" library="rcl" deviceset="L-US" device="0204/5" value="100uh"/>
 <part name="P+1" library="supply1" deviceset="V+" device=""/>
 <part name="DA2" library="ESR_NM8032" deviceset="K157DA1" device=""/>
 <part name="P+4" library="supply1" deviceset="V+" device=""/>
