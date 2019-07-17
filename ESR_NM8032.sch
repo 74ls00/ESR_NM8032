@@ -27974,7 +27974,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C18" library="HWProgUSB" deviceset="RCL_CPOL-EU" device="E2-5" value="100µ 16V"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="470x6v3"/>
 <part name="DA5" library="ct-pack" deviceset="78LXX" device="_SOT89"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -27988,8 +27987,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-SQUARE" device="3.2"/>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-SQUARE" device="3.2"/>
 <part name="H3" library="holes" deviceset="MOUNT-PAD-SQUARE" device="3.2"/>
-<part name="C23" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="470x6v3"/>
-<part name="C24" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="470x6v3"/>
 <part name="L2.2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="U$2" library="ESR_NM8032" deviceset="B-" device=""/>
 <part name="U$4" library="ESR_NM8032" deviceset="B+" device=""/>
@@ -28216,7 +28213,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="GND2" gate="1" x="111.76" y="27.94"/>
 <instance part="C18" gate="G$1" x="142.24" y="38.1"/>
 <instance part="GND11" gate="1" x="142.24" y="27.94"/>
-<instance part="C19" gate="G$1" x="12.7" y="175.26"/>
 <instance part="DA5" gate="1" x="132.08" y="63.5"/>
 <instance part="GND12" gate="1" x="132.08" y="50.8"/>
 <instance part="C20" gate="G$1" x="132.08" y="38.1" smashed="yes">
@@ -28240,8 +28236,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="H1" gate="G$1" x="177.8" y="81.28"/>
 <instance part="H2" gate="G$1" x="177.8" y="73.66"/>
 <instance part="H3" gate="G$1" x="177.8" y="66.04"/>
-<instance part="C23" gate="G$1" x="25.4" y="175.26"/>
-<instance part="C24" gate="G$1" x="38.1" y="175.26"/>
 <instance part="L2.2" gate="G$1" x="41.91" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.37" y="73.025" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.99" y="64.77" size="1.778" layer="96" rot="R90"/>
@@ -28557,18 +28551,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="78.74" y1="114.3" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
 <label x="71.12" y="124.46" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="C19" gate="G$1" pin="-"/>
-<wire x1="12.7" y1="170.18" x2="12.7" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="167.64" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="-"/>
-<wire x1="25.4" y1="167.64" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="-"/>
-<wire x1="25.4" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="167.64" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
-<label x="27.94" y="165.1" size="1.778" layer="95"/>
-<junction x="25.4" y="167.64"/>
-</segment>
 </net>
 <net name="VCCS" class="0">
 <segment>
@@ -28589,18 +28571,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="71.12" y1="139.7" x2="71.12" y2="144.78" width="0.1524" layer="91"/>
 <junction x="71.12" y="144.78"/>
 <label x="71.12" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C24" gate="G$1" pin="+"/>
-<wire x1="25.4" y1="180.34" x2="38.1" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="180.34" x2="38.1" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="+"/>
-<wire x1="12.7" y1="177.8" x2="12.7" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="180.34" x2="25.4" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="+"/>
-<wire x1="25.4" y1="180.34" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
-<label x="27.94" y="180.34" size="1.778" layer="95"/>
-<junction x="25.4" y="180.34"/>
 </segment>
 </net>
 <net name="N$18" class="0">
