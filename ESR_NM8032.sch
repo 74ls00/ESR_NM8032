@@ -18353,6 +18353,44 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <package name="B+">
 <smd name="P$1" x="0" y="0" dx="6" dy="8" layer="1"/>
 </package>
+<package name="P2K">
+<wire x1="-5" y1="-17.12" x2="5" y2="-17.12" width="0.127" layer="21"/>
+<wire x1="-5" y1="-17.12" x2="-5" y2="-1.62" width="0.127" layer="21"/>
+<wire x1="-5" y1="-1.62" x2="-5" y2="4.38" width="0.127" layer="21"/>
+<wire x1="-5" y1="4.38" x2="-3.5" y2="4.38" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="4.38" x2="3.5" y2="4.38" width="0.127" layer="21"/>
+<wire x1="3.5" y1="4.38" x2="5" y2="4.38" width="0.127" layer="21"/>
+<wire x1="5" y1="4.38" x2="5" y2="-1.62" width="0.127" layer="21"/>
+<pad name="S1B" x="-3.05" y="-11.62" drill="1.1" diameter="2.1844"/>
+<pad name="S2B" x="3.05" y="-11.62" drill="1.1" diameter="2.1844"/>
+<pad name="S1" x="-3.05" y="-7.62" drill="1.1" diameter="2.1844"/>
+<pad name="S2" x="3.05" y="-7.62" drill="1.1" diameter="2.1844"/>
+<pad name="S1A" x="-3.05" y="-3.62" drill="1.1" diameter="2.1844"/>
+<pad name="S2A" x="3.05" y="-3.62" drill="1.1" diameter="2.1844"/>
+<wire x1="5" y1="-1.62" x2="5" y2="-17.12" width="0.127" layer="21"/>
+<wire x1="-5" y1="4.38" x2="-7" y2="4.38" width="0.127" layer="21"/>
+<wire x1="-7" y1="4.38" x2="-7" y2="-1.62" width="0.127" layer="21"/>
+<wire x1="-7" y1="-1.62" x2="-5" y2="-1.62" width="0.127" layer="21"/>
+<wire x1="5" y1="-1.62" x2="7" y2="-1.62" width="0.127" layer="21"/>
+<wire x1="7" y1="-1.62" x2="7" y2="4.38" width="0.127" layer="21"/>
+<wire x1="7" y1="4.38" x2="5" y2="4.38" width="0.127" layer="21"/>
+<wire x1="7" y1="4.38" x2="11.5" y2="4.38" width="0.127" layer="21"/>
+<wire x1="-7" y1="4.38" x2="-11.5" y2="4.38" width="0.127" layer="21"/>
+<wire x1="3.5" y1="4.38" x2="3.5" y2="12.38" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="4.38" x2="-3.5" y2="12.38" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="12.38" x2="-2.5" y2="12.38" width="0.127" layer="21"/>
+<wire x1="2.5" y1="12.38" x2="3.5" y2="12.38" width="0.127" layer="21"/>
+<wire x1="2.5" y1="12.38" x2="2.5" y2="14.38" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="12.38" x2="-2.5" y2="14.38" width="0.127" layer="21"/>
+<wire x1="1.5" y1="14.38" x2="1.5" y2="22.38" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="14.38" x2="-1.5" y2="22.38" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="22.38" x2="1.5" y2="22.38" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="14.38" x2="-2.5" y2="14.38" width="0.127" layer="21"/>
+<wire x1="1.5" y1="14.38" x2="2.5" y2="14.38" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="12.38" x2="-1.5" y2="12.38" width="0.127" layer="21"/>
+<wire x1="2.5" y1="12.38" x2="1.5" y2="12.38" width="0.127" layer="21"/>
+<text x="0.635" y="5.715" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="K157DA1">
@@ -18396,6 +18434,29 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </symbol>
 <symbol name="B+">
 <pin name="P$1" x="0" y="2.54" visible="off" length="short" rot="R270"/>
+</symbol>
+<symbol name="DS">
+<wire x1="1.905" y1="6.35" x2="1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.905" y1="6.35" x2="0" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="6.35" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="0" y1="6.35" x2="-1.905" y2="6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.286" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="0" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.175" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.302" x2="-0.762" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="2.794" x2="0" y2="2.286" width="0.1524" layer="94"/>
+<text x="-5.715" y="6.985" size="1.778" layer="95">&gt;NAME</text>
+<text x="0.635" y="6.985" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="O" x="5.08" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -18450,6 +18511,27 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <device name="" package="B+">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="P2K-1">
+<gates>
+<gate name="A" symbol="DS" x="0" y="0"/>
+<gate name="B" symbol="DS" x="0" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="P2K">
+<connects>
+<connect gate="A" pin="O" pad="S1A"/>
+<connect gate="A" pin="P" pad="S1"/>
+<connect gate="A" pin="S" pad="S1B"/>
+<connect gate="B" pin="O" pad="S2A"/>
+<connect gate="B" pin="P" pad="S2"/>
+<connect gate="B" pin="S" pad="S2B"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -27992,6 +28074,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U$4" library="ESR_NM8032" deviceset="B+" device=""/>
 <part name="SW2" library="pinhead" deviceset="PINHD-1X3" device=""/>
 <part name="SW3" library="pinhead" deviceset="PINHD-1X3" device=""/>
+<part name="S1" library="ESR_NM8032" deviceset="P2K-1" device="" value="П2К"/>
+<part name="S2" library="ESR_NM8032" deviceset="P2K-1" device="" value="П2К"/>
 </parts>
 <sheets>
 <sheet>
@@ -28233,9 +28317,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </instance>
 <instance part="GND14" gate="1" x="152.4" y="27.94"/>
 <instance part="GND15" gate="1" x="160.02" y="27.94"/>
-<instance part="H1" gate="G$1" x="177.8" y="81.28"/>
-<instance part="H2" gate="G$1" x="177.8" y="73.66"/>
-<instance part="H3" gate="G$1" x="177.8" y="66.04"/>
+<instance part="H1" gate="G$1" x="236.22" y="63.5"/>
+<instance part="H2" gate="G$1" x="236.22" y="55.88"/>
+<instance part="H3" gate="G$1" x="236.22" y="48.26"/>
 <instance part="L2.2" gate="G$1" x="41.91" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.37" y="73.025" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.99" y="64.77" size="1.778" layer="96" rot="R90"/>
@@ -28244,6 +28328,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <instance part="U$4" gate="G$1" x="22.86" y="48.26"/>
 <instance part="SW2" gate="A" x="12.7" y="55.88" rot="R180"/>
 <instance part="SW3" gate="A" x="12.7" y="30.48" rot="R180"/>
+<instance part="S1" gate="A" x="114.3" y="93.98"/>
+<instance part="S1" gate="B" x="190.5" y="86.36"/>
+<instance part="S2" gate="A" x="190.5" y="71.12"/>
+<instance part="S2" gate="B" x="114.3" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -28968,6 +29056,24 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="22.86" y1="38.1" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SW3" gate="A" pin="3"/>
 <wire x1="15.24" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="S1" gate="B" pin="S"/>
+<wire x1="195.58" y1="83.82" x2="200.66" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="83.82" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="S2" gate="A" pin="S"/>
+<wire x1="200.66" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="S2" gate="A" pin="P"/>
+<wire x1="185.42" y1="71.12" x2="182.88" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="71.12" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="S1" gate="B" pin="P"/>
+<wire x1="182.88" y1="86.36" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
