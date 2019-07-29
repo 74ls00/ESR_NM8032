@@ -2285,7 +2285,7 @@ grid 2.54 mm, diameter 7 mm</description>
 <attribute name="VALUE" x="11.43" y="34.6075" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="X2" library="pinhead" package="1X02" value="" x="25.0825" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="24.0538" y="37.3888" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="25.6413" y="37.7063" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="27.6225" y="43.815" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L1" library="rcl" package="0207/10" value="100uh" x="14.9225" y="45.72" smashed="yes">
@@ -2319,8 +2319,8 @@ grid 2.54 mm, diameter 7 mm</description>
 <element name="U$4" library="ESR_NM8032" package="B+" value="B+" x="-1.27" y="109.5375" rot="MR0"/>
 <element name="SW2" library="pinhead" package="1X03" value="" x="7.9375" y="118.745"/>
 <element name="SW3" library="pinhead" package="1X03" value="" x="25.0825" y="29.5275" rot="R270"/>
-<element name="S1" library="ESR_NM8032" package="P2K" value="П2К" x="23.8125" y="28.575" rot="R180"/>
-<element name="S2" library="ESR_NM8032" package="P2K" value="П2К" x="11.43" y="28.8925" rot="R180"/>
+<element name="S1" library="ESR_NM8032" package="P2K" value="П2К" x="50.165" y="51.7525" rot="R270"/>
+<element name="S2" library="ESR_NM8032" package="P2K" value="П2К" x="48.895" y="32.385" rot="R270"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2919,12 +2919,12 @@ grid 2.54 mm, diameter 7 mm</description>
 <signal name="N$28">
 <contactref element="S1" pad="S2B"/>
 <contactref element="S2" pad="S1B"/>
-<wire x1="14.48" y1="40.5125" x2="20.7625" y2="40.195" width="0" layer="19" extent="1-1"/>
+<wire x1="37.275" y1="35.435" x2="38.545" y2="48.7025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$39">
 <contactref element="S2" pad="S1"/>
 <contactref element="S1" pad="S2"/>
-<wire x1="14.48" y1="36.5125" x2="20.7625" y2="36.195" width="0" layer="19" extent="1-1"/>
+<wire x1="41.275" y1="35.435" x2="42.545" y2="48.7025" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
