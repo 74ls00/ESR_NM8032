@@ -27555,10 +27555,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <part name="U$2" library="ESR_NM8032" deviceset="B-" device=""/>
 <part name="U$4" library="ESR_NM8032" deviceset="B+" device=""/>
 <part name="C19" library="rcl" deviceset="CPOL-EU" device="E15-5AXIAL" value="470x6v3"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="3k"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="10"/>
 <part name="S2" library="ESR_NM8032" deviceset="SWITCH9X4" device="" value=""/>
 <part name="S1" library="ESR_NM8032" deviceset="SWITCH9X4" device="" value=""/>
-<part name="R18" library="rcl" deviceset="R-EU_" device="R1206W" value="0"/>
+<part name="J1" library="rcl" deviceset="R-EU_" device="R1206W" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -27823,7 +27823,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="9.525" y="29.845" size="1.778" layer="95"/>
 <attribute name="VALUE" x="8.255" y="36.195" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R18" gate="G$1" x="185.42" y="177.8"/>
+<instance part="J1" gate="G$1" x="185.42" y="177.8"/>
 </instances>
 <busses>
 </busses>
@@ -28048,7 +28048,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="DA3" gate="G$1" pin="V+"/>
 <wire x1="226.06" y1="165.1" x2="223.52" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="165.1" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="177.8" x2="223.52" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 <junction x="195.58" y="177.8"/>
@@ -28580,7 +28580,7 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="220.98" y1="132.08" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
 <junction x="220.98" y="104.14"/>
 <junction x="220.98" y="132.08"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <junction x="215.9" y="172.72"/>
 <wire x1="167.64" y1="177.8" x2="172.72" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="177.8" x2="177.8" y2="177.8" width="0.1524" layer="91"/>
