@@ -27662,9 +27662,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <attribute name="NAME" x="98.044" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="98.044" y="94.361" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="124.46" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.81" y="97.5614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="128.27" y="93.218" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="124.46" y="99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="130.81" y="100.1014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="128.27" y="95.758" size="1.778" layer="96"/>
 </instance>
 <instance part="GND4" gate="1" x="71.12" y="96.52"/>
 <instance part="C12" gate="G$1" x="30.48" y="38.1" smashed="yes">
@@ -28230,11 +28230,11 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="DA2" gate="G$1" pin="!IN2"/>
 <wire x1="129.54" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="127" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="104.14" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="109.22" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<junction x="124.46" y="104.14"/>
+<wire x1="129.54" y1="127" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="106.68" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="106.68" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="109.22" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
+<junction x="124.46" y="106.68"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -28481,9 +28481,9 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="93.98" x2="106.68" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="88.9" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="93.98" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="91.44" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC/2" class="0">
