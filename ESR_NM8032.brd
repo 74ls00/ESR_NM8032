@@ -2293,9 +2293,9 @@ pinhead.lbr 6.4</description>
 <attribute name="NAME" x="1.905" y="77.7875" size="1.27" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="1.905" y="76.2" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="C8" library="HWProgUSB" package="RCL_E2,5-5" value="100µ 16V" x="13.6525" y="74.93" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.668" y="77.597" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="15.113" y="77.1525" size="1.27" layer="27" ratio="10"/>
+<element name="C8" library="HWProgUSB" package="RCL_E2,5-5" value="100µ 16V" x="13.6525" y="75.2475" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.668" y="77.9145" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="15.113" y="77.47" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="U$1" library="ESR_NM8032" package="LR03" value="" x="5.715" y="30.1625" rot="R90"/>
 <element name="U$3" library="ESR_NM8032" package="LR03" value="" x="5.715" y="75.2475" rot="R90"/>
@@ -2505,8 +2505,7 @@ pinhead.lbr 6.4</description>
 <wire x1="29.21" y1="13.97" x2="32.385" y2="13.97" width="1.27" layer="16"/>
 <wire x1="8.52" y1="72.0725" x2="10.4775" y2="72.0725" width="1.27" layer="16"/>
 <wire x1="13.401" y1="70.4825" x2="13.6525" y2="70.485" width="1.016" layer="16"/>
-<wire x1="13.6525" y1="70.485" x2="13.6525" y2="73.66" width="1.016" layer="16"/>
-<wire x1="13.6525" y1="73.9775" x2="13.6525" y2="73.66" width="1.016" layer="16"/>
+<wire x1="13.6525" y1="70.485" x2="13.6525" y2="73.9775" width="1.016" layer="16"/>
 <wire x1="17.78" y1="70.8025" x2="15.5575" y2="70.8025" width="1.016" layer="16"/>
 <wire x1="15.5575" y1="70.8025" x2="14.224" y2="70.8025" width="1.016" layer="16"/>
 <wire x1="14.224" y1="70.8025" x2="13.6525" y2="70.485" width="1.016" layer="16"/>
@@ -2917,17 +2916,17 @@ pinhead.lbr 6.4</description>
 <wire x1="5.87" y1="73.5725" x2="4.2125" y2="73.5725" width="0.6096" layer="16"/>
 <wire x1="4.2125" y1="73.5725" x2="4.1275" y2="73.6575" width="0.6096" layer="16"/>
 <contactref element="R17" pad="1"/>
-<wire x1="13.6525" y1="76.2" x2="11.1125" y2="76.2" width="1.27" layer="16"/>
-<wire x1="11.1125" y1="76.2" x2="10.16" y2="75.2475" width="1.27" layer="16"/>
+<wire x1="13.6525" y1="76.5175" x2="11.43" y2="76.5175" width="1.27" layer="16"/>
+<wire x1="11.43" y1="76.5175" x2="10.16" y2="75.2475" width="1.27" layer="16"/>
 <wire x1="10.16" y1="75.2475" x2="6.6675" y2="75.2475" width="1.27" layer="16"/>
 <wire x1="28.2575" y1="86.995" x2="28.2575" y2="82.55" width="0.6096" layer="16"/>
 <wire x1="28.2575" y1="82.55" x2="23.921446875" y2="78.213946875" width="0.6096" layer="16"/>
 <wire x1="28.2575" y1="86.995" x2="31.4325" y2="90.17" width="0.6096" layer="16"/>
 <wire x1="31.4325" y1="90.17" x2="32.07" y2="90.17" width="0.6096" layer="16"/>
-<wire x1="13.6525" y1="76.2" x2="13.6525" y2="78.74" width="0.6096" layer="16"/>
+<wire x1="13.6525" y1="76.5175" x2="13.6525" y2="78.74" width="0.6096" layer="16"/>
 <wire x1="13.6525" y1="78.74" x2="12.3825" y2="80.01" width="0.6096" layer="16"/>
-<wire x1="23.921446875" y1="78.213946875" x2="15.666446875" y2="78.213946875" width="0.6096" layer="16"/>
-<wire x1="15.666446875" y1="78.213946875" x2="13.6525" y2="76.2" width="0.6096" layer="16"/>
+<wire x1="23.921446875" y1="78.213946875" x2="15.348946875" y2="78.213946875" width="0.6096" layer="16"/>
+<wire x1="15.348946875" y1="78.213946875" x2="13.6525" y2="76.5175" width="0.6096" layer="16"/>
 </signal>
 <signal name="+6V">
 <contactref element="DA4" pad="6"/>
