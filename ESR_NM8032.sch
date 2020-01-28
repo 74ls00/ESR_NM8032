@@ -33883,8 +33883,8 @@ pinhead.lbr 6.4</description>
 <part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="180"/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="M1206" value="0.5-1"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="9k1"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="2k4"/>
+<part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="7k5(9k1 6v)"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="1k5(2k4 6v)"/>
 <part name="L2" library="rcl" deviceset="L-US" device="0204/7" value="100uh"/>
 <part name="3VD2" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="SS12"/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
@@ -33927,7 +33927,7 @@ pinhead.lbr 6.4</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C18" library="HWProgUSB" deviceset="RCL_CPOL-EU" device="E2.5-5" value="100µ 16V"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="DA5" library="ct-pack" deviceset="78LXX" device="_SOT89" value="78l06"/>
+<part name="DA5" library="ct-pack" deviceset="78LXX" device="_SOT89" value="78L06"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
