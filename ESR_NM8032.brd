@@ -2109,7 +2109,7 @@ pinhead.lbr 6.4</description>
 <attribute name="NAME" x="22.987" y="76.454" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="18.7325" y="74.93" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="DD1" library="40xx" package="SO16" value="4049D" x="8.89" y="25.0825" rot="MR270"/>
+<element name="DD1" library="40xx" package="SO16" value="HEF4049BT" x="8.89" y="25.0825" rot="MR270"/>
 <element name="C1" library="rcl" package="C0805" value="330" x="9.2075" y="19.05" smashed="yes" rot="MR180">
 <attribute name="NAME" x="10.16" y="16.8275" size="1.27" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="10.4775" y="15.24" size="1.27" layer="28" rot="MR0"/>
@@ -2310,7 +2310,7 @@ pinhead.lbr 6.4</description>
 <attribute name="NAME" x="14.503396875" y="79.5909" size="0.9906" layer="25" ratio="10"/>
 <attribute name="VALUE" x="16.598896875" y="79.6036" size="0.9906" layer="27" ratio="10"/>
 </element>
-<element name="DA2" library="ESR_NM8032" package="DIL14" value="K157DA1" x="21.59" y="43.4975" smashed="yes">
+<element name="DA2" library="ESR_NM8032" package="DIL14" value="К157ДА1" x="21.59" y="43.4975" smashed="yes">
 <attribute name="NAME" x="18.542" y="49.276" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="23.114" y="49.2125" size="1.27" layer="27" ratio="10"/>
 </element>
