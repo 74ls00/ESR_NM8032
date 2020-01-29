@@ -33982,7 +33982,7 @@ pinhead.lbr 6.4</description>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10m"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="075-032X103" value="220n"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="56k"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="HL1" library="led" deviceset="LED" device="3MM"/>
 <part name="HL2" library="led" deviceset="LED" device="3MM"/>
