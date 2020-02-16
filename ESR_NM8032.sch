@@ -33963,7 +33963,7 @@ pinhead.lbr 6.4</description>
 <part name="C12" library="rc-elektronik" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="DA4" library="mc34063" deviceset="MC34063" device="AD"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="M0805" value="180"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="M1206" value="0.5-1"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="M1206" value="0.5"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="M0805" value="7k5(9k1 6v)"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="M0805" value="1k5(2k4 6v)"/>
